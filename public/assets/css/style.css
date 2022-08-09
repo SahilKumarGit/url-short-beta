@@ -1,0 +1,151 @@
+html body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background-color: rgb(5, 19, 56);
+  padding: 16px;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainCard {
+  max-width: 450px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 20px;
+  z-index: 10px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.mainCardx {
+  max-width: 450px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  z-index: 10px;
+  position: relative;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.mainCardx img{
+  width: 50px;
+  height: 50px;
+}
+
+.txtBox{
+  padding-left: 18px;
+}
+
+.txtBox .title{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.txtBox .subTitle {
+  font-size: 14px;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.body {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.loading {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+  font-weight: 600;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  padding: 16px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+
+.alert {
+  max-width: 450px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 20px;
+  z-index: 10px;
+  position: relative;
+}
+
+
+.waterMark{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-size: 12px;
+}
